@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Honk&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Coming Soon', 'Honk', 'Lora', sans-serif;
+    background-color: white;
+}
+
+.fmp-logo {
+    width: 350px; /* Adjust the size of the logo */
+    display: block;
+    margin: 0 auto; /* Center the logo */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #333;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/resultado.css">
+    <script defer src="js/resultado.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="fmp-logo">
+                <img src="img/fmp_logo.png" alt="FMP Logo">
+            </div>
+            <h1>Resultado do Jogo da Memória</h1>
+        </header>
+        <section>
+            <h2>Parabéns, <span class="player-name"></span>!</h2> <p>Você completou o jogo!</p>
+            <h3>Tempos por Fase:</h3>
+            <ul>
+                <li>Fase 1 (Fácil): <span id="tempoFase1">--:--</span> segundos</li>
+                <li>Fase 2 (Médio): <span id="tempoFase2">--:--</span> segundos</li>
+                <li>Fase 3 (Difícil): <span id="tempoFase3">--:--</span> segundos</li>
+            </ul>
+            <p>Tempo total: <span id="tempoTotal">--:--</span> segundos</p>
+            <button id="play-final-sound-button" class="action-button">Ouvir o som da vitória!</button>
+            <button id="reiniciarJogo">Jogar Novamente</button></section>
+    </main>
+    <footer>
+            <p>&copy; Jogo Desenvolvido por: Luciano Simas Junior<br>1° Fase de Análise e desenvolvimento de Sistemas</p>
+        </footer>
+    
+</body>
+</html>
