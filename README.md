@@ -3,6 +3,8 @@ Jogo da Memória 🎉
 Descrição:
 Este é um jogo da memória simples e divertido, desenvolvido com tecnologias web fundamentais (HTML, CSS, JavaScript). O objetivo do jogo é encontrar todos os pares de cartas correspondentes em diferentes níveis de dificuldade, contra o tempo.
 
+Link do Jogo: https://thesimas.github.io/jogo_da_memoria/
+
 Funcionalidades:
 - Cadastro de jogador com nome.
 - Três níveis de dificuldade (Fase 1, Fase 2, Fase 3), cada um com um número crescente de pares de cartas.
